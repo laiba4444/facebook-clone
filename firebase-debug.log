@@ -1,0 +1,23 @@
+[debug] [2023-02-19T03:25:00.432Z] ----------------------------------------------------------------------
+[debug] [2023-02-19T03:25:00.436Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL E7270\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-02-19T03:25:00.437Z] CLI Version:   11.23.1
+[debug] [2023-02-19T03:25:00.437Z] Platform:      win32
+[debug] [2023-02-19T03:25:00.437Z] Node Version:  v18.13.0
+[debug] [2023-02-19T03:25:00.439Z] Time:          Sun Feb 19 2023 08:25:00 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-02-19T03:25:00.440Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-19T03:25:00.562Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-19T03:25:00.563Z] > authorizing via signed-in user (laibasajid4444@gmail.com)
+[debug] [2023-02-19T03:25:00.563Z] [iam] checking project fb-clone-d257c for permissions ["firebase.projects.get","firebasedatabase.instances.update"]
+[debug] [2023-02-19T03:25:00.567Z] > refreshing access token with scopes: []
+[debug] [2023-02-19T03:25:00.571Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-02-19T03:25:00.571Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-19T03:25:22.458Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-02-19T03:25:22.461Z] > refreshing access token with scopes: []
+[debug] [2023-02-19T03:25:22.462Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-02-19T03:25:22.462Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-19T03:25:23.037Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-02-19T03:25:23.037Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-19T03:25:23.052Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fb-clone-d257c [none]
